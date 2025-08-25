@@ -71,33 +71,6 @@ export const BenefitsSection = () => {
           ))}
         </div>
 
-        {/* Stats section */}
-        <div className="mt-20 grid md:grid-cols-4 gap-8">
-          <div className="text-center">
-            <div className="text-4xl font-bold bg-gradient-to-r from-tech-blue to-cyber-glow bg-clip-text text-transparent mb-2">
-              300%
-            </div>
-            <div className="text-sm text-muted-foreground">Aumento em Leads Qualificados</div>
-          </div>
-          <div className="text-center">
-            <div className="text-4xl font-bold bg-gradient-to-r from-tech-blue to-cyber-glow bg-clip-text text-transparent mb-2">
-              85%
-            </div>
-            <div className="text-sm text-muted-foreground">Taxa de Satisfação</div>
-          </div>
-          <div className="text-center">
-            <div className="text-4xl font-bold bg-gradient-to-r from-tech-blue to-cyber-glow bg-clip-text text-transparent mb-2">
-              24/7
-            </div>
-            <div className="text-sm text-muted-foreground">Disponibilidade</div>
-          </div>
-          <div className="text-center">
-            <div className="text-4xl font-bold bg-gradient-to-r from-tech-blue to-cyber-glow bg-clip-text text-transparent mb-2">
-              &lt;48h
-            </div>
-            <div className="text-sm text-muted-foreground">Implementação</div>
-          </div>
-        </div>
       </div>
     </section>
   );
