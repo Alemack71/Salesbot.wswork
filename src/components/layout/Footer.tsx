@@ -35,8 +35,8 @@ export const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold">Contato</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <div>contato@salesbot.wswork.com.br</div>
-              <div>+55 (11) 99999-9999</div>
+              <div>vitorb@wontstop.work</div>
+              <div>+55 (51) 99627-9724</div>
               <div>WhatsApp 24/7</div>
               <div>www.salesbot.wswork.com.br</div>
             </div>
@@ -44,7 +44,7 @@ export const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border/50 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 SalesBot. Todos os direitos reservados. | Desenvolvido com IA para automatização de vendas.</p>
+          <p>&copy; 2025 SalesBot. Todos os direitos reservados. | Desenvolvido com IA para automatização de vendas.</p>
         </div>
       </div>
     </footer>

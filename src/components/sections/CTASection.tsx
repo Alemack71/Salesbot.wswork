@@ -27,19 +27,6 @@ export const CTASection = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button variant="cta" size="lg" className="group">
-                <MessageCircle className="w-5 h-5 mr-2" />
-                Solicitar Demonstração
-                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              
-              <Button variant="outline" size="lg" className="border-tech-blue/50 hover:border-tech-blue">
-                <Phone className="w-4 h-4 mr-2" />
-                Falar com Especialista
-              </Button>
-            </div>
-
             <div className="grid md:grid-cols-3 gap-8 pt-8 border-t border-border/50">
               <div className="flex flex-col items-center gap-3">
                 <div className="w-12 h-12 bg-gradient-to-r from-tech-blue/20 to-cyber-glow/20 rounded-full flex items-center justify-center">
@@ -47,7 +34,7 @@ export const CTASection = () => {
                 </div>
                 <div>
                   <div className="font-semibold">Telefone</div>
-                  <div className="text-sm text-muted-foreground">+55 (11) 99999-9999</div>
+                  <div className="text-sm text-muted-foreground">+55 (51) 99627-9724</div>
                 </div>
               </div>
 
@@ -57,7 +44,7 @@ export const CTASection = () => {
                 </div>
                 <div>
                   <div className="font-semibold">E-mail</div>
-                  <div className="text-sm text-muted-foreground">contato@salesbot.wswork.com.br</div>
+                  <div className="text-sm text-muted-foreground">vitorb@wontstop.work</div>
                 </div>
               </div>
 
