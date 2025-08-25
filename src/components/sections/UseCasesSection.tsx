@@ -17,7 +17,7 @@ export const UseCasesSection = () => {
     },
     {
       icon: Shirt,
-      title: "Moda & Varejo",
+      title: "Moda e Varejo",
       description: "Lojas de roupas e acessórios. Recomendações de estilo baseadas em compras anteriores e tendências.",
       color: "from-purple-500 to-purple-600"
     },
@@ -29,13 +29,13 @@ export const UseCasesSection = () => {
     },
     {
       icon: Coffee,
-      title: "Food & Beverage",
+      title: "Comida e Bebidas",
       description: "Restaurantes e cafeterias. Recomendações de pratos e bebidas baseadas em pedidos anteriores.",
       color: "from-amber-500 to-amber-600"
     },
     {
       icon: Gem,
-      title: "Luxo & Joias",
+      title: "Luxo e Joias",
       description: "Joalherias e produtos de luxo. Recomendações exclusivas baseadas em perfil e ocasiões especiais.",
       color: "from-pink-500 to-pink-600"
     }
@@ -74,9 +74,9 @@ export const UseCasesSection = () => {
                 {useCase.description}
               </p>
               
-              <div className="mt-6 text-sm text-tech-blue opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              {/* <div className="mt-6 text-sm text-tech-blue opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 Saiba mais →
-              </div>
+              </div> */}
             </Card>
           ))}
         </div>
