@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { UserCheck, Database, Brain, MessageSquare } from "lucide-react";
-import totemInterface from "@/assets/totem-interface.jpg";
+import totemInterface from "@/assets/totem-interface.png";
 
 export const HowItWorksSection = () => {
   const steps = [
@@ -76,7 +76,7 @@ export const HowItWorksSection = () => {
               <img 
                 src={totemInterface} 
                 alt="Interface do Totem Interativo SalesBot"
-                className="w-full h-auto rounded-lg"
+                className="w-full h-94 object-cover rounded-lg" // define altura e corta excesso
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent rounded-lg"></div>
               <div className="absolute bottom-6 left-6 right-6">
