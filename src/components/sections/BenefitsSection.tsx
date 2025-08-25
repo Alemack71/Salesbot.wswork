@@ -41,7 +41,7 @@ export const BenefitsSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
             Por que Escolher o 
-            <span className="bg-gradient-to-r from-tech-blue to-cyber-glow bg-clip-text text-transparent ml-2">
+            <span className="bg-gradient-to-r from-tech-red to-cyber-glow bg-clip-text text-transparent ml-2">
               SalesBot
             </span>
           </h2>
@@ -53,14 +53,14 @@ export const BenefitsSection = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
-            <Card key={index} className="p-8 bg-card/50 backdrop-blur border-border/50 hover:border-tech-blue/50 hover:shadow-lg hover:shadow-tech-blue/10 transition-all duration-300 group">
+            <Card key={index} className="p-8 bg-card/50 backdrop-blur border-border/50 hover:border-tech-red/50 hover:shadow-lg hover:shadow-tech-red/10 transition-all duration-300 group">
               <div className="mb-6">
-                <div className="w-14 h-14 bg-gradient-to-r from-tech-blue/20 to-cyber-glow/20 rounded-2xl flex items-center justify-center group-hover:from-tech-blue/30 group-hover:to-cyber-glow/30 transition-all duration-300">
-                  <benefit.icon className="w-7 h-7 text-tech-blue" />
+                <div className="w-14 h-14 bg-gradient-to-r from-tech-red/20 to-cyber-glow/20 rounded-2xl flex items-center justify-center group-hover:from-tech-red/30 group-hover:to-cyber-glow/30 transition-all duration-300">
+                  <benefit.icon className="w-7 h-7 text-tech-red" />
                 </div>
               </div>
               
-              <h3 className="text-xl font-semibold mb-3 group-hover:text-tech-blue transition-colors">
+              <h3 className="text-xl font-semibold mb-3 group-hover:text-tech-red transition-colors">
                 {benefit.title}
               </h3>
               

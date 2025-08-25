@@ -8,11 +8,11 @@ export const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-tech-blue to-cyber-glow rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-r from-tech-red to-cyber-glow rounded-lg flex items-center justify-center">
                 <Bot className="w-5 h-5 text-primary-foreground" />
               </div>
               <span className="text-lg font-bold">
-                Sales<span className="text-tech-blue">BOT</span>
+                Sales<span className="text-tech-red">BOT</span>
               </span>
             </div>
             <p className="text-sm text-muted-foreground max-w-xs">

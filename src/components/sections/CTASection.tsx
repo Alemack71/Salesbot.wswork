@@ -7,17 +7,17 @@ export const CTASection = () => {
     <section className="py-24 bg-background relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-tech-blue/20 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-tech-red/20 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-cyber-glow/20 rounded-full blur-3xl"></div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto">
-          <Card className="p-12 bg-card/80 backdrop-blur border-tech-blue/20 text-center">
+          <Card className="p-12 bg-card/80 backdrop-blur border-tech-red/20 text-center">
             <div className="mb-8">
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">
                 Pronto para Revolucionar 
-                <span className="bg-gradient-to-r from-tech-blue to-cyber-glow bg-clip-text text-transparent block lg:inline lg:ml-3">
+                <span className="bg-gradient-to-r from-tech-red to-cyber-glow bg-clip-text text-transparent block lg:inline lg:ml-3">
                   Suas Vendas?
                 </span>
               </h2>
@@ -29,8 +29,8 @@ export const CTASection = () => {
 
             <div className="grid md:grid-cols-3 gap-8 pt-8 border-t border-border/50">
               <div className="flex flex-col items-center gap-3">
-                <div className="w-12 h-12 bg-gradient-to-r from-tech-blue/20 to-cyber-glow/20 rounded-full flex items-center justify-center">
-                  <Phone className="w-6 h-6 text-tech-blue" />
+                <div className="w-12 h-12 bg-gradient-to-r from-tech-red/20 to-cyber-glow/20 rounded-full flex items-center justify-center">
+                  <Phone className="w-6 h-6 text-tech-red" />
                 </div>
                 <div>
                   <div className="font-semibold">Telefone</div>
@@ -39,8 +39,8 @@ export const CTASection = () => {
               </div>
 
               <div className="flex flex-col items-center gap-3">
-                <div className="w-12 h-12 bg-gradient-to-r from-tech-blue/20 to-cyber-glow/20 rounded-full flex items-center justify-center">
-                  <Mail className="w-6 h-6 text-tech-blue" />
+                <div className="w-12 h-12 bg-gradient-to-r from-tech-red/20 to-cyber-glow/20 rounded-full flex items-center justify-center">
+                  <Mail className="w-6 h-6 text-tech-red" />
                 </div>
                 <div>
                   <div className="font-semibold">E-mail</div>
@@ -49,8 +49,8 @@ export const CTASection = () => {
               </div>
 
               <div className="flex flex-col items-center gap-3">
-                <div className="w-12 h-12 bg-gradient-to-r from-tech-blue/20 to-cyber-glow/20 rounded-full flex items-center justify-center">
-                  <MessageCircle className="w-6 h-6 text-tech-blue" />
+                <div className="w-12 h-12 bg-gradient-to-r from-tech-red/20 to-cyber-glow/20 rounded-full flex items-center justify-center">
+                  <MessageCircle className="w-6 h-6 text-tech-red" />
                 </div>
                 <div>
                   <div className="font-semibold">WhatsApp</div>

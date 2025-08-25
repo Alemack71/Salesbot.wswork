@@ -18,11 +18,11 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-r from-tech-blue to-cyber-glow rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-r from-tech-red to-cyber-glow rounded-lg flex items-center justify-center">
               <Bot className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="text-xl font-bold">
-              Sales<span className="text-tech-blue">BOT</span>
+              Sales<span className="text-tech-red">BOT</span>
             </span>
           </div>
 
@@ -32,7 +32,7 @@ export const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-tech-blue transition-colors"
+                className="text-sm font-medium text-muted-foreground hover:text-tech-red transition-colors"
               >
                 {item.name}
               </a>
@@ -63,7 +63,7 @@ export const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-sm font-medium text-muted-foreground hover:text-tech-blue transition-colors"
+                  className="text-sm font-medium text-muted-foreground hover:text-tech-red transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}

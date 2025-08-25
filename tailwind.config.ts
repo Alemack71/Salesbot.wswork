@@ -52,8 +52,10 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				'tech-blue': 'hsl(var(--tech-blue))',
-				'tech-blue-dark': 'hsl(var(--tech-blue-dark))',
+				'tech-red': {
+					DEFAULT: 'hsl(var(--tech-red) / <alpha-value>)',
+					dark: 'hsl(var(--tech-red-dark) / <alpha-value>)',
+				},
 				'cyber-glow': 'hsl(var(--cyber-glow))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -96,14 +98,6 @@ export default {
 						transform: 'translateY(-10px)'
 					}
 				},
-				'pulse-glow': {
-					'0%, 100%': {
-						boxShadow: '0 0 20px hsl(var(--tech-blue) / 0.3)'
-					},
-					'50%': {
-						boxShadow: '0 0 40px hsl(var(--tech-blue) / 0.6)'
-					}
-				},
 				'gradient-shift': {
 					'0%, 100%': {
 						backgroundPosition: '0% 50%'
@@ -117,7 +111,6 @@ export default {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'float': 'float 6s ease-in-out infinite',
-				'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
 				'gradient-shift': 'gradient-shift 3s ease-in-out infinite'
 			},
 			backgroundSize: {

@@ -44,9 +44,9 @@ All colors MUST be HSL.
     --gradient-hero: linear-gradient(135deg, hsl(220 25% 5%) 0%, hsl(220 20% 8%) 50%, hsl(217 91% 15%) 100%);
     --shadow-glow: 0 0 40px hsl(217 91% 60% / 0.3);
     --shadow-card: 0 10px 30px -10px hsl(220 25% 5% / 0.5);
-    --tech-blue: 217 91% 60%;
-    --tech-blue-dark: 224 76% 48%;
-    --cyber-glow: 180 100% 50%;
+    --tech-red: 0 85% 50%; 
+    --tech-red-dark: 0 85% 35%;
+    --cyber-glow: 340 100% 55%;
 
     --sidebar-background: 0 0% 98%;
 

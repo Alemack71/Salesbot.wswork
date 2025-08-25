@@ -48,7 +48,7 @@ export const HowItWorksSection = () => {
               <div key={index} className="flex gap-6 group">
                 <div className="flex-shrink-0">
                   <div className="relative">
-                    <div className="w-16 h-16 bg-gradient-to-r from-tech-blue to-tech-blue-dark rounded-2xl flex items-center justify-center group-hover:shadow-lg group-hover:shadow-tech-blue/30 transition-all duration-300">
+                    <div className="w-16 h-16 bg-gradient-to-r from-tech-red to-tech-red-dark rounded-2xl flex items-center justify-center group-hover:shadow-lg group-hover:shadow-tech-red/30 transition-all duration-300">
                       <step.icon className="w-8 h-8 text-primary-foreground" />
                     </div>
                     <div className="absolute -top-2 -right-2 w-6 h-6 bg-cyber-glow rounded-full flex items-center justify-center text-xs font-bold text-background">
@@ -58,7 +58,7 @@ export const HowItWorksSection = () => {
                 </div>
                 
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-tech-blue transition-colors">
+                  <h3 className="text-xl font-semibold mb-2 group-hover:text-tech-red transition-colors">
                     {step.title}
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
@@ -71,8 +71,8 @@ export const HowItWorksSection = () => {
 
           {/* Right side - Image */}
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-tech-blue/20 to-cyber-glow/20 blur-2xl transform rotate-3 scale-105"></div>
-            <Card className="relative z-10 p-4 bg-card/80 backdrop-blur border-tech-blue/20">
+            <div className="absolute inset-0 bg-gradient-to-r from-tech-red/20 to-cyber-glow/20 blur-2xl transform rotate-3 scale-105"></div>
+            <Card className="relative z-10 p-4 bg-card/80 backdrop-blur border-tech-red/20">
               <img 
                 src={totemInterface} 
                 alt="Interface do Totem Interativo SalesBot"
