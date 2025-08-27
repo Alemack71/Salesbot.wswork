@@ -15,7 +15,7 @@ export const Header = () => {
   return (
     <header className="fixed top-0 w-full bg-background/80 backdrop-blur-lg border-b border-border/50 z-50">
       <div className="container mx-auto px-6">
-        <div className="flex items-center justify-between h-16">
+        <div className="grid grid-cols-3 items-center h-16">
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 bg-gradient-to-r from-tech-red to-cyber-glow rounded-lg flex items-center justify-center">
@@ -38,13 +38,6 @@ export const Header = () => {
               </a>
             ))}
           </nav>
-
-          {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button variant="hero" size="sm">
-              Demonstração
-            </Button>
-          </div>
 
           {/* Mobile menu button */}
           <button
@@ -69,9 +62,6 @@ export const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="hero" size="sm" className="mt-2">
-                Demonstração
-              </Button>
             </nav>
           </div>
         )}
