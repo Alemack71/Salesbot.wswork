@@ -44,7 +44,7 @@ export const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border/50 text-center text-sm text-muted-foreground">
-          <p>&copy; 2025 SalesBot. Todos os direitos reservados. | Desenvolvido com IA para automatização de vendas.</p>
+          <p>&copy; 2025 SalesBot. Todos os direitos reservados. | Desenvolvido para automatização de vendas.</p>
         </div>
       </div>
     </footer>
