@@ -3,12 +3,23 @@ import { ArrowRight, Bot, Zap } from "lucide-react";
 import salesbotHero from "@/assets/salesbot-hero.jpg";
 
 export const HeroSection = () => {
+
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="min-h-screen bg-gradient-to-br from-background via-muted/20 to-background relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-20 left-20 w-72 h-72 bg-tech-red/20 rounded-full blur-3xl animate-float"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-cyber-glow/20 rounded-full blur-3xl animate-float" style={{ animationDelay: "3s" }}></div>
+        <div
+          className="absolute bottom-20 right-20 w-96 h-96 bg-cyber-glow/20 rounded-full blur-3xl animate-float"
+          style={{ animationDelay: "3s" }}
+        ></div>
       </div>
       
       <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
@@ -17,7 +28,9 @@ export const HeroSection = () => {
           <div className="space-y-8">
             <div className="flex items-center gap-2 text-tech-red">
               <Bot className="w-6 h-6" />
-              <span className="text-sm font-semibold tracking-wider uppercase">Inteligência Artificial</span>
+              <span className="text-sm font-semibold tracking-wider uppercase">
+                Inteligência Artificial
+              </span>
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
@@ -34,7 +47,12 @@ export const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="group">
+              <Button
+                variant="hero"
+                size="lg"
+                className="group"
+                onClick={() => scrollToSection("contato")}
+              >
                 <Zap className="w-5 h-5 mr-2 group-hover:animate-pulse" />
                 Começar Agora
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -44,6 +62,7 @@ export const HeroSection = () => {
                 variant="outline" 
                 size="lg" 
                 className="border-tech-red/50 hover:border-tech-red hover:bg-transparent hover:text-tech-red"
+                onClick={() => scrollToSection("como-funciona")}
               >
                 Ver Demonstração
               </Button>
